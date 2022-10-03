@@ -1,3 +1,3 @@
 scoreboard objectives add random_tester dummy
-rand 1 100 HelloWorld random_tester
+execute store result score HelloWorld random_tester run rand 1 100000
 scoreboard objectives setdisplay sidebar random_tester
